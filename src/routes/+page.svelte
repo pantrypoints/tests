@@ -1,2 +1,10 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p>
+<script lang="ts">
+  import MapView from '$lib/components/MapView.svelte';
+</script>
+
+<svelte:head>
+  <title>Manilakbay — Metro Manila Commute Guide</title>
+  <meta name="description" content="Navigate Metro Manila's commute routes — jeepney, bus, UV express, tricycle, and sidewalk conditions." />
+</svelte:head>
+
+<MapView />

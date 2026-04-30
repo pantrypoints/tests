@@ -1,0 +1,34 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  background: #0a0c12;
+}
+
+:root {
+  --color-bg: #0a0c12;
+  --color-surface: rgba(12, 14, 22, 0.92);
+  --color-border: rgba(255, 255, 255, 0.1);
+  --color-text: #e2e8f0;
+  --color-muted: rgba(255, 255, 255, 0.45);
+  --color-accent: #F59E0B;
+
+  /* Transport colors */
+  --color-jeepney: #F59E0B;
+  --color-bus: #EF4444;
+  --color-uv: #8B5CF6;
+  --color-tricycle: #10B981;
+
+  /* Sidewalk colors */
+  --sidewalk-green: #22C55E;
+  --sidewalk-yellow: #EAB308;
+  --sidewalk-orange: #F97316;
+  --sidewalk-red: #EF4444;
+  --sidewalk-black: #171717;
+}
